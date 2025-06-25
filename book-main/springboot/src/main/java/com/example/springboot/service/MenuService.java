@@ -1,15 +1,12 @@
 package com.example.springboot.service;
 
-import com.example.springboot.entity.Menu;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.example.springboot.entity.Menu;
 
 /**
  * <p>
  *  服务类
  * </p>
- *
- * @author admin
- * @since 2024-04-14
  */
 public interface MenuService extends IService<Menu> {
 

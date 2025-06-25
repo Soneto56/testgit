@@ -1,36 +1,26 @@
 package com.example.springboot.controller;
 
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.core.toolkit.StringUtils;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.example.springboot.common.QueryPageParam;
 import com.example.springboot.common.Result;
 import com.example.springboot.entity.Goods;
 import com.example.springboot.entity.Record;
 import com.example.springboot.service.GoodsService;
 import com.example.springboot.service.RecordService;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-
-import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.baomidou.mybatisplus.core.toolkit.StringUtils;
-import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.time.LocalDateTime;
-import java.util.Date;
 import java.util.HashMap;
 
 /**
- * <p>
- *  前端控制器
- * </p>
- *
- * @author admin
- * @since 2024-04-15
- *
  * 记录管理
  */
 @RestController

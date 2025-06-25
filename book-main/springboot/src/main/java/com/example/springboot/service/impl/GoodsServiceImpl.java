@@ -2,10 +2,10 @@ package com.example.springboot.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.example.springboot.entity.Goods;
 import com.example.springboot.mapper.GoodsMapper;
 import com.example.springboot.service.GoodsService;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -14,10 +14,6 @@ import javax.annotation.Resource;
  * <p>
  *  服务实现类
  * </p>
- *
- * @author admin
- * @since 2024-04-15
- *
  * 物品管理
  */
 @Service

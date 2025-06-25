@@ -4,7 +4,6 @@ import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.toolkit.StringUtils;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-
 import com.example.springboot.common.QueryPageParam;
 import com.example.springboot.common.Result;
 import com.example.springboot.entity.Storage;
@@ -16,13 +15,6 @@ import java.util.HashMap;
 import java.util.List;
 
 /**
- * <p>
- *  前端控制器
- * </p>
- *
- * @author admin
- * @since 2024-04-14
- *
  * 书架管理
  */
 @RestController

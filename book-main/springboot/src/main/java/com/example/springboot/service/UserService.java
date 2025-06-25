@@ -3,8 +3,8 @@ package com.example.springboot.service;
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.toolkit.Constants;
-import com.example.springboot.entity.User;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.example.springboot.entity.User;
 import org.apache.ibatis.annotations.Param;
 
 /**
@@ -12,8 +12,6 @@ import org.apache.ibatis.annotations.Param;
  *  服务类
  * </p>
  *
- * @author admin
- * @since 2024-04-11
  */
 public interface UserService extends IService<User> {
 

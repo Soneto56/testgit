@@ -42,12 +42,12 @@
             <artifactId>mysql-connector-j</artifactId>
             <scope>runtime</scope>
         </dependency>
-        <!-- Thymeleaf模板引擎: thymeleaf是一个很强大的视图解析工具。 -->
-        <!--<dependency>-->
-        <!--    <groupId>org.springframework.boot</groupId>-->
-        <!--    <artifactId>spring-boot-starter-thymeleaf</artifactId>-->
-        <!--</dependency>-->
-        <!-- 热部署lombok -->
+        <!--         Thymeleaf模板引擎: thymeleaf是一个很强大的视图解析工具。 -->
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework.boot</groupId>-->
+        <!--            <artifactId>spring-boot-starter-thymeleaf</artifactId>-->
+        <!--        </dependency>-->
+        <!--         热部署lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>

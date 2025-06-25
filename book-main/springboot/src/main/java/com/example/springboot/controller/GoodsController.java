@@ -1,30 +1,18 @@
 package com.example.springboot.controller;
 
-import com.example.springboot.common.QueryPageParam;
-import com.example.springboot.common.Result;
-import com.example.springboot.entity.Goods;
-import com.example.springboot.service.GoodsService;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.toolkit.StringUtils;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.example.springboot.common.QueryPageParam;
+import com.example.springboot.common.Result;
+import com.example.springboot.entity.Goods;
+import com.example.springboot.service.GoodsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
 
-/**
- * <p>
- *  前端控制器
- * </p>
- *
- * @author admin
- * @since 2024-04-15
- *
- * 物品管理
- */
 @RestController
 @RequestMapping("/goods")
 public class GoodsController {
